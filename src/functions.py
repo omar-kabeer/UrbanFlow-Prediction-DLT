@@ -18,9 +18,17 @@ def combine_dataframes(dfs):
     return combined_df
 
 def skew_kurt(data, col):
-    """This code defines a function named skew_kurt that calculates the skewness and kurtosis of a given column in a dataset.
-    It also creates a histogram of the column with annotations for the mean, median, and mode.
     """
+    Calculate the skewness and kurtosis of a given column in a dataset.
+    
+    Parameters:
+        data (DataFrame): The dataset containing the column.
+        col (str): The name of the column to calculate the skewness and kurtosis for.
+        
+    Returns:
+        None
+    """
+    
     # Calculate skewness and kurtosis of Income column
     _skewness = skew(data[col])
     _kurtosis = kurtosis(data[col])
