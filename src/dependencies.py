@@ -22,7 +22,7 @@ from sklearn.feature_selection import RFE
 from sklearn.linear_model import LogisticRegression
 from sklearn.datasets import make_classification
 from sklearn.feature_selection import SelectFromModel
-from sklearn.feature_selection import mutual_info_classif
+from sklearn.feature_selection import mutual_info_regression
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
